@@ -17,11 +17,9 @@
             <span class="reading-time">{{ T "readingTime" .ReadingTime }}</span>
             {{- end -}}
             {{- if .IsTranslated -}}
-            <span class="langs">
                 {{- range .Translations -}}
-                <span class="lang"><a href="{{- .RelPermalink -}}">{{- .Lang -}}</a></span>
+                &nbsp;<a href="{{- .RelPermalink -}}">{{- .Site.Language.LanguageName -}}</a>
                 {{- end -}}
-            </span>
             {{- end -}}
         </p>
     {{- end -}}
