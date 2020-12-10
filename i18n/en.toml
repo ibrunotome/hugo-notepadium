@@ -5,9 +5,6 @@ other = " • edited %s"
 one = " • One minute of reading. You can also read in"
 other = " • {{ .Count }} minutes of reading. You can also read in"
 
-[more]
-other = "more"
-
 [Categories]
 other = "Categories"
 
